@@ -1,0 +1,271 @@
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.dropdown-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.dropdown-item {
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.dropdown-item:hover {
+    background-color: #aaa9a9;
+}
+
+
+
+
+.gigio {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 120px;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url('BackGround-copy.png');
+  background-size: 100% 100%;
+
+}
+
+body , .b{
+  margin: 0;
+  display: grid;
+  align-items: center;
+  min-width: 120px;
+  min-height: 100vh;
+  background-size: 100% 100%;
+}
+.site-footer {
+  background-color: black;
+  padding: 40px 20px;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 0.8rem;
+}
+
+.team-footer h3 {
+  color: #ff0000;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.team-footer ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.team-footer li {
+  margin: 8px 0;
+  color: #e0e0e0;
+}
+
+.team-footer strong {
+  color: #ffd500;
+}
+
+.footer-credit {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 20px;
+}
+.esercizi {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 120px;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-image: url('palestra3.png');
+  background-size: 100% 100%;
+
+}
+
+.div2 {
+  display: "flex";
+  align-items: "center";
+  gap: "1rem";
+}
+
+.div1 {
+  padding: "1rem";
+  font-family: "Arial";
+}
+
+.img {
+  width: "110px";
+  height: "110px";
+  object-fit: "contain";
+  margin-left: "10px";
+}
+
+.h1 {
+  margin: 0;
+  font-size: "2rem";
+  color: "white";
+}
+
+.es {
+  list-style: "none";
+  padding-left: "20rem";
+  margin: 0;
+}
+
+.item {
+  font-size: "25px";
+  line-height: "1.5";
+  color: "white";
+}
+
+.second {
+  text-decoration: "none";
+  color: "white";
+  font-weight: "bold";
+}
+
+.body2 {
+  margin: "0.5rem";
+  height: "calc(100vh + 1rem)";
+  width: "calc(100vw  - 1.95rem)";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  background-position: "center";
+  border-radius: "20px";
+  overflow: "hidden";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  font-family: "Arial";
+  color: "white";
+}
+
+
+
+
+/*  css per page2  */
+.grid {
+  display: grid;
+  max-width: 100rem;
+  margin: 2rem auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.card {
+  display: flex;
+  gap: 1.5rem;
+  flex-direction: column;
+  padding: 1.5rem 1rem;
+  border-radius: 1.5rem;
+  border-color: black;
+  background: rgba(98, 98, 98, 0.3);
+  color: black;
+}
+
+.card h3,
+.card p,
+.card a {
+  margin: 0;
+}
+
+.button , .button2{
+  width: fit-content;
+  padding: 0.5rem;
+  border: 2px solid black;
+  color: black;
+  text-decoration: none;
+  align-self: center;
+  border-radius: 1.5rem;
+}
+
+.button:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.button2:hover {
+  background: rgba(98, 98, 98, 0.3);
+}
+
+.box {
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 825px) {
+  body {
+    margin: 2rem 1.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+/* footer 2*/
+.team-section {
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+  border-top: 2px solid #ff7300;
+  border-bottom: 2px solid #ff7300;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 1.1rem;
+  color: #ffcc00;
+  margin-bottom: 40px;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.team-member {
+  background-color: #2a2a2a;
+  border: 2px solid #ff7300;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ffbb0069;
+  transition: transform 0.3s;
+}
+
+.team-member:hover {
+  transform: scale(1.03);
+}
+
+.team-member h3 {
+  color: #ff4065;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.team-member p {
+  font-size: 0.8rem;
+  color: #e0e0e0;
+}
