@@ -1,0 +1,27 @@
+Descrizione del progetto – CorpusVive
+
+Abbiamo realizzato un'applicazione web full stack per la gestione di workout in palestra, chiamata CorpusVive. 
+Il sito permette agli utenti di esplorare esercizi e, una volta effettuato l’accesso, creare il proprio piano di allenamento personalizzato.
+
+--Homepage--
+La homepage presenta:
+
+  -In alto a sinistra: il logo del sito
+
+  -Al centro: un collegamento alla sezione "Tutti gli esercizi"
+
+  -A destra: il pulsante per il login
+
+--Sezione "Tutti gli esercizi"--
+In questa sezione è possibile:
+
+  -Visualizzare l'elenco completo degli esercizi disponibili
+
+  -Leggere una breve descrizione per ogni esercizio
+
+--Funzionalità per utenti registrati--
+Gli utenti che effettuano il login possono:
+
+  -Creare un workout personalizzato scegliendo tra gli esercizi disponibili
+
+  -Gestire e salvare i propri allenamenti
