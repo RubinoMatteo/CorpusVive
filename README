@@ -12,7 +12,7 @@ La homepage presenta:
 
   -A destra: il pulsante per il login
 
---Sezione "Tutti gli esercizi"--
+--"Tutti gli esercizi"--
 In questa sezione è possibile:
 
   -Visualizzare l'elenco completo degli esercizi disponibili
@@ -25,3 +25,10 @@ Gli utenti che effettuano il login possono:
   -Creare un workout personalizzato scegliendo tra gli esercizi disponibili
 
   -Gestire e salvare i propri allenamenti
+
+--Funzionalità per gli Admin--
+Gli amministratori, una volta effettuato il login con credenziali specifiche, possono:
+
+  -Aggiungere nuovi esercizi alla piattaforma
+
+  -Modificare o eliminare esercizi esistenti
